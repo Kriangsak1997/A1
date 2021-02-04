@@ -1,0 +1,78 @@
+#main-header {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+  
+}
+#title{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    margin: auto;
+
+}
+
+#trap{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    margin: auto;
+    padding: 5px;
+}
+#email {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    width: 655px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    
+}
+
+button.subscribe-button{
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    margin: 20px 0px 0px 0px;
+}
+
+.success-card {
+    display: none;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    background-color: #c3ecc5;
+
+}
+
+#success-h1{
+    color: green;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+#success-p{
+    color: green;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.card {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 45px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+
+
+}
