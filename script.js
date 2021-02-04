@@ -14,7 +14,7 @@ var ifFocused = function(){
 }
 var toSubscribe = function(){
     if(!ifEmail() & !ifFocused()){
-        document.getElementById("alert").innerHTML = "A valid email is required";
+        document.getElementById("trap").innerHTML = "A valid email is required";
         document.getElementById("email").style.outlineColor="red"
         document.getElementById("email").style.borderColor="red"
     }else{
@@ -23,8 +23,8 @@ var toSubscribe = function(){
 
 var successfullySubscribed = function(){
     document.getElementsByClassName("success-card")[0].style.display = "block";
-    document.getElementById("success-h1").innerHTML = "Thank you";
-    document.getElementById("success-p").innerHTML = "Your subscription was a success !"
+    document.getElementById("success-thank").innerHTML = "Thank you";
+    document.getElementById("success-t2").innerHTML = "Your subscription was a success !"
     document.getElementsByClassName("subscribe-card")[0].style.display = "none";
 
 }
